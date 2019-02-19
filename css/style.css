@@ -1,0 +1,174 @@
+body{
+	font-family: Segoe UI;
+	color: #fff;
+	font-size: 14px;
+	background-color:#000000;
+}
+
+header{
+	padding: 20px 0;
+	
+}
+
+#hero{
+	background-image: url(img/slider-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 250px 0px;
+}
+
+#hero h1{	
+	font-size: 75px;
+	font-weight: 600;
+}
+
+#hero p{
+	font-size: 15px;
+}
+
+.btn-rectangulo{
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	border-radius: 0px;
+	padding: 10px 20px ;
+}
+
+#services{
+	padding: 100px 0px;
+}
+
+
+#services img{
+	padding: 12px 0;
+}
+
+#services p{
+	padding-bottom: 25px;
+}
+
+body{
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: white;	
+}
+
+#primera-seccion{
+	/*background-color: #212121;*/
+	background-image:url(img/bro-penguins.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	/*height: 100px;*/
+	padding: 200px 0px;
+	
+}
+
+.menu{
+	font-size: 16px;
+	list-style: none;
+	text-align: right;
+	margin-right: 100px;
+}
+
+.menu li {
+	display: inline-block;
+	margin-right: 20px;
+	padding: 12px 15px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #1F1F1F;
+}
+
+.menu li a:hover{
+	color: #9ABED3;
+	background-color: #F1EEEE;
+	padding-top: 10px;
+	
+}
+
+.quasar{
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-left: 30px;
+}
+
+.boton{
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+.boton-naranja{
+	background-color: #CB7800
+}
+.boton-azul{
+	background-color: #13737B
+}
+
+#primera-seccion h1{
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+.circulo{
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	border-radius: 100%;
+	margin: auto;
+	}
+
+#features{
+	background-color: #FFFFFF;
+	text-align: center;
+}
+#segunda-seccion{
+	background-color: #15789B;
+	text-align: center;
+	color: white;
+	padding: 20px 0px;
+}
+
+#segunda-seccion h3{
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+.border{
+	border: 1px solid #FFFFFF;
+	padding: 20px 0px;
+	
+}
+
+#scroll{
+	padding: 100px 0;
+	}
+
+#scroll .info-scroll{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#scroll .info-scroll h3{
+	font-size: 25px;
+	font-weight:400;
+}
+
+#scroll .info-scroll h4{
+	margin: 25px 0 5px;
+	font-size: 23px;
+}
+
+footer{
+background-color: #FFFFFF;
+}
+	
