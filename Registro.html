@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registro de Vehiculos - Overton</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href=  "css/bootstrap.min.css" rel="stylesheet">
+	<link href=   "css/style.css" rel="stylesheet">
+	<link href="css/bootstrap-custom.css" rel="stylesheet">
+</head>
+	
+	<meta name="Description" content="Registro Vehícular para el sistema del Instituto de la Propiedad de Honduras">
+	<meta name="Keywords" content="registro de vehículo, registrar carro, vehículo ">
+	
+<body>
+	
+			<header>
+		<div class="container-fluid">
+			
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			
+  	<a class="navbar-brand" href="#"><img src="img/header-logo.png" alt="logo"></a>
+			
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+		</li>
+		<li class="nav-item dropdown">
+		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Pages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">About us</a>
+          <a class="dropdown-item" href="#">About me</a>
+          <a class="dropdown-item" href="#">About team</a>
+        </div>
+		</li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#">portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">blog</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="#">shop</a>
+      </li>
+            
+    	</ul>
+
+  		</div>
+		</nav>
+		</div>
+	</header>
+	
+			<section id="encabezado">
+			<div class="container">
+				
+<div class="row">
+	
+			<article class="col-md-6 col-sm-12 col-xs-12">
+				<h1>Registro</h1>
+			</article>
+			
+			<article class="col-md-6 col-sm-12 col-xs-12">
+				
+			</article>
+</div>
+		
+			</div>
+			</section>
+	
+	
+			<section id="content">
+		<div class="container">
+			<form method="post" action="#" class="col-md-6">
+				
+				<div class="form-group">
+					<label>Nombre del Propietario</label>
+					<input type="text" name="Nombre" id="nombre" class="form-control" required>					
+				</div>
+				
+				<div class="form-group">
+					<label>Placa</label>
+					<input type="text" name="placa" id="placa" class="form-control" required>					
+				</div>
+		
+<div class="row">
+
+				<div class="form-group col-md-6">
+					<label>Marca</label>
+					<select name="marca" id="marca" class="form-control">
+					
+					<optgroup label="Estados Unidos">
+						<option value="Ford">Ford</option>
+					</optgroup>
+						
+					<optgroup label="Japonés">
+						<option value="Toyota">Toyota</option>
+						<option value="Mazda">Mazda</option>
+						<option value="Honda">Honda</option>
+						<option value="Suzuki">Suzuki</option>
+					</optgroup>
+					
+					<optgroup label="Koreano">
+						<option value="KIA">KIA</option>
+					</optgroup>
+					
+					<optgroup label="Europeo">
+						<option value="BMW">BMW</option>
+					</optgroup>
+					
+						
+					</select>					
+				</div>
+				
+				<div class="form-group col-md-6">
+					<label>Modelo</label>
+					<input type="text" name="Modelo" id="modelo" class="form-control">
+				</div>
+					
+</div>
+				
+				
+<div class="row">
+				
+				<div class="form-group col-md-6">
+					<label>Color</label>
+					<input type="text" name="color" id="color" class="form-control">
+				</div>
+			
+				<div class="form-group col-md-6">
+					<label>Año</label >
+					<input type="number" name="anio" id="anio" class="form-control" required>
+				</div>
+				
+</div>
+				
+				
+				<div class="form-group">
+					<label>Motor/Serie</label>
+					<input type="text" name="motor" id="motor" class="form-control" required>
+				</div>
+							
+				
+				<div class="form-group">
+					<label>Tipo de Vehículo</label>
+					<select name="tipovehiculo" id="tipovehiculo" class="form-control">
+					
+					<optgroup label="Liviano">
+						<option value="Ford">Automóvil</option>
+						<option value="Ford">Convertible</option>
+						<option value="Ford">Deportivo</option>
+						<option value="Ford">Camioneta</option>
+						<option value="Ford">Pick Up</option>
+						<option value="Ford">Furgoneta</option>
+						<option value="Ford">Todo Terreno</option>
+						<option value="Ford">Jeep</option>
+						
+					</optgroup>
+						
+					<optgroup label="Pesado">
+						<option value="Toyota">Bus</option>
+						<option value="Mazda">Microbús</option>
+						<option value="Honda">Mini Bus</option>
+						<option value="Suzuki">Camión</option>
+						<option value="Honda">Plataforma</option>
+						<option value="Suzuki">Cabezal</option>
+						<option value="Suzuki">Furgón</option>
+					</optgroup>
+					
+					</select>					
+				</div>
+				
+				<div class="form-group">
+					<label>Dirección del Propietario</label>
+					<textarea name="direccion" id="direccion" class="form-control">
+					</textarea>
+				</div>
+				
+				<div class="form-group">
+					<button type="submit" class= "btn btn-primary">Registrar Vehículo</button>
+					<button type="reset" class= "btn btn-dark">Cancelar</button>
+				</div>
+				
+				
+		</form>
+		</div>
+				
+			
+
+	</section>
+	
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+

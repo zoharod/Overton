@@ -168,6 +168,51 @@ body{
 	font-size: 23px;
 }
 
+.foto{
+	position: relative;
+}
+
+.overlay{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 90%;
+	padding: 30px 60px;
+	background-color: rgba(0,0,0,0.70);
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.foto:hover .overlay{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.bg-over-blue{
+	background-color: rgba(15,66,60,0.80);
+}
+
+#logoforms .overlay{
+	top:0;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	z-index: 0;
+}
+
+
+#logoforms .info-foto{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: #C9AF01; 
+	text-align: center;
+	z-index: 4;
+}
+
+
 footer{
 background-color: #FFFFFF;
 }

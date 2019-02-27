@@ -168,6 +168,23 @@ body{
 	font-size: 23px;
 }
 
+#encabezado{
+	background-color: #0c0c0c;
+	color: #fff;
+	padding: 50px 0px;
+}
+
+#encabezado h1{
+	font-size: 21px;
+}
+
+
+#content{
+	padding: 45px 0px;
+}
+
+
+
 footer{
 background-color: #FFFFFF;
 }
